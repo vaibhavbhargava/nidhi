@@ -1,0 +1,43 @@
+
+<form id="myform" class="myform">
+
+    <div class="input">
+        <span class="inputlabel">First name:</span> <span class="inputfield"><input type="text" name="firstname" value="" /></span>
+    </div>
+
+ <div class="input">
+     <span class="inputlabel">Last name:</span> <span class="inputfield"><input type="text" name="lastname" value="" /></span>
+    </div>
+
+<div class="input">
+        <span class="inputlabel">Gender:</span>
+    <span class="inputfield">
+    <input type="radio" name="gender" value="male" checked> Male 
+  <input type="radio" name="gender" value="female"> Female 
+  <input type="radio" name="gender" value="other"> Other
+    </span>
+    </div>
+
+<div class="input">
+    <span class="inputlabel">Car Brand:</span>
+    <span class="inputfield">
+<select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>  
+    </span>
+    </div>
+
+  <input class="tnc" type="checkbox" name="acceptance" value="Bike"> I accept!<br>
+
+  <button id="myformsubmit" class="submitMyForm">Submit</button>
+
+
+</form>
+<center>
+<div class="thankyouMessage formMessage" style="display:none"><h3 style="color:green"> Thank you for your time!</h1></div>
+
+<div class="errorMessage formMessage" style="display:none"><h3 style="color:red"> Sorry we encountered some issue!</h1></div>
+</center>

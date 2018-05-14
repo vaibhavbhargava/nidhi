@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/nidhi-project"/>
+
+    <filter root="/apps/sling/servlet/errorhandler"/>
+
+
+    <filter root="/conf/nidhi-project" mode="merge"/>
+
+
+    <filter root="/etc/clientlibs/nidhi-project"/>
+
+
+    <filter root="/etc/designs/nidhi-project">
+        <include pattern="/etc/designs/nidhi-project/jcr:content"/>
+
+        <include pattern="/etc/designs/nidhi-project/jcr:content/clientlibs"/>
+        <include pattern="/etc/designs/nidhi-project/jcr:content/clientlibs/.*"/>
+
+    </filter>
+
+	<filter root="/content/ingestionMapping"/>
+
+</workspaceFilter>

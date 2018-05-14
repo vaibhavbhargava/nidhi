@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Call To Action"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Provide link which could be internal or external"
+                        fieldLabel="Path"
+                        name="./link"
+                        xtype="pathfield"/>
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="Link Text"
+                        fieldLabel="Text"
+                        name="./text"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Tab 2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <helptext
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Help Text"
+                        fieldLabel="Help"
+                        name="./help"
+                        xtype="textarea"/>
+                    <helprich
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Help Text"
+                        fieldLabel="Help"
+                        name="./help1"
+                        xtype="richtext"/>
+                </items>
+            </tab2>
+        </items>
+    </items>
+</jcr:root>

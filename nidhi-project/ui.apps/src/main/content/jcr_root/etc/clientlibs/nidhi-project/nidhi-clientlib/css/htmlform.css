@@ -1,0 +1,47 @@
+.myform, .formMessage{
+	background: url("http://kb4images.com/images/minimal-wallpapers/36629151-minimal-wallpapers.jpg") no-repeat;
+	background-size: cover;
+	width: 30%; 
+	padding: 2% 5% 2% 5%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+input, select { 
+    width: 100%;
+}
+input[type="radio"], input[type="checkbox"]{
+	width: auto; 
+}
+.tnc{
+margin: 2%;
+    }
+.submitMyForm { 
+width: 80px;
+        height: 30px;
+background-color: green;
+        border: solid green 2px;
+        font-weight: bold;
+        font-size: 16px;
+    float:right;
+    margin-right: 2%;
+    border-radius: 10%;
+    }
+    .submitMyForm:hover {
+    border: solid #555555 2px;
+    background-color: #555555;
+    color: white;
+cursor:pointer;
+            }
+.input{ 
+	width: 98%;
+    margin: 2% 0;
+}
+.inputlabel{
+	width: 30%;
+	margin: 0 2% 0 2%;
+} 
+.inputfield {
+	width: 62%;
+	margin: 0 2% 0 2%;
+    float: right;
+}
