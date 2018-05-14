@@ -1,4 +1,4 @@
-# Nidhi Project
+# Nidhi Project Git
 
 This a content package project generated using the AEM Multimodule Lazybones template.
 
